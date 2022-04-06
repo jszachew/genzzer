@@ -1,0 +1,19 @@
+{
+  "name": "genzzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "cd client && yarn install && yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.14.0",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "pandas-js": "^0.2.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
