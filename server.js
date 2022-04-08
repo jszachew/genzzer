@@ -9,6 +9,7 @@ const path = require('path');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.raw());
 app.use(express.json())
+app.use(cors())
 
 const api = require('./routes/api.routes')
 
